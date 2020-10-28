@@ -1,0 +1,195 @@
+"","item","item.label","facet","facet.label","domain.label","in.brief"
+"13","achi_1m","Always demands him/herself to be the best","ACHI_rm","Extreme Achievement Striving","Compulsivity",TRUE
+"44","achi_2m","Makes too high demands for him/herself","ACHI_rm","Extreme Achievement Striving","Compulsivity",TRUE
+"73","achi_3m","Wants to shine at everything","ACHI_rm","Extreme Achievement Striving","Compulsivity",TRUE
+"133","achi_5m","Always plays hard to win, even when not necessary","ACHI_rm","Extreme Achievement Striving","Compulsivity",TRUE
+"37","orde_1m","Controls surroundings by being neat all the time","ORDE_rm","Extreme Order","Compulsivity",TRUE
+"65","orde_2m","Is obsessed with cleaning","ORDE_rm","Extreme Order","Compulsivity",FALSE
+"95","orde_3m","Is extremely careful with his/her own belongings","ORDE_rm","Extreme Order","Compulsivity",FALSE
+"127","orde_4m","Feels an extreme need for an orderly environment","ORDE_rm","Extreme Order","Compulsivity",TRUE
+"154","orde_5m","Carries out every work with extreme care","ORDE_rm","Extreme Order","Compulsivity",FALSE
+"179","orde_6m","Becomes very irritated when things are lying around","ORDE_rm","Extreme Order","Compulsivity",TRUE
+"34","perf_1m","Wants life to be perfectly organized","PERF_rm","Perfectionism","Compulsivity",TRUE
+"101","achi_4m","Devotes too much of him/herself to tasks","PERF_rm","Perfectionism","Compulsivity",FALSE
+"121","perf_4m","Finds it important to do all things perfectly","PERF_rm","Perfectionism","Compulsivity",TRUE
+"147","perf_5m","Always makes detailed plans when doing something","PERF_rm","Perfectionism","Compulsivity",FALSE
+"173","perf_6m","Loses a lot of time trying to be perfect","PERF_rm","Perfectionism","Compulsivity",TRUE
+"25","labi_1m","Has extreme mood swings","LABI_rm","Affective Lability","Disagreeableness",FALSE
+"55","labi_2m","Is often moody","LABI_rm","Affective Lability","Disagreeableness",TRUE
+"83","labi_3m","Has very unpredictable moods","LABI_rm","Affective Lability","Disagreeableness",TRUE
+"112","labi_4m","His/her feelings are easily influenced by small things ","LABI_rm","Affective Lability","Disagreeableness",FALSE
+"142","labi_5m","Has frequent mood changes from one extreme to the other","LABI_rm","Affective Lability","Disagreeableness",TRUE
+"169","labi_6m","His/her feelings towards others are constantly changing","LABI_rm","Affective Lability","Disagreeableness",FALSE
+"23","diso_1m","Always leaves belongings lying around","DISO_rm","Disorderliness","Disagreeableness",FALSE
+"53","diso_2m","Has no sense of order","DISO_rm","Disorderliness","Disagreeableness",TRUE
+"66","pers_2m","Always chooses the easy way","DISO_rm","Disorderliness","Disagreeableness",FALSE
+"82","diso_3m","Is constantly leaving big messes","DISO_rm","Disorderliness","Disagreeableness",TRUE
+"110","diso_4m","Never takes care of his/her belongings","DISO_rm","Disorderliness","Disagreeableness",TRUE
+"155","pers_5m","Frequently postpones hard things","DISO_rm","Disorderliness","Disagreeableness",FALSE
+"167","diso_6m","Is often unable to find his/her belongings","DISO_rm","Disorderliness","Disagreeableness",FALSE
+"180","pers_6m","Puts things off until the last moment","DISO_rm","Disorderliness","Disagreeableness",FALSE
+"18","dist_1m","Only can be focused for a few moments","DIST_rm","Distraction","Disagreeableness",FALSE
+"38","pers_1m","Never finishes his/her work","DIST_rm","Distraction","Disagreeableness",TRUE
+"47","dist_2m","Often has problems with focusing attention","DIST_rm","Distraction","Disagreeableness",FALSE
+"76","dist_3m","Can only be focused for a few moments","DIST_rm","Distraction","Disagreeableness",TRUE
+"96","pers_3m","Always quits when things get harder","DIST_rm","Distraction","Disagreeableness",FALSE
+"128","pers_4m","Never persists until his/her goals are achieved","DIST_rm","Distraction","Disagreeableness",TRUE
+"162","dist_6m","Can never concentrate","DIST_rm","Distraction","Disagreeableness",TRUE
+"14","domi_1m","Always demands other children to listen","DOMI_rm","Dominance–Egocentrism","Disagreeableness",FALSE
+"74","domi_2m","Always takes the leading position in games","DOMI_rm","Dominance–Egocentrism","Disagreeableness",FALSE
+"91","egoc_3m","Tries very hard to get his/her way","DOMI_rm","Dominance–Egocentrism","Disagreeableness",FALSE
+"102","domi_3m","Wants to assert him/herself all the time","DOMI_rm","Dominance–Egocentrism","Disagreeableness",TRUE
+"113","mani_4m","Manipulates other children repeatedly to have his/her way","DOMI_rm","Dominance–Egocentrism","Disagreeableness",TRUE
+"134","domi_4m","Always tries to interfere","DOMI_rm","Dominance–Egocentrism","Disagreeableness",FALSE
+"160","domi_5m","Always imposes his/her opinion","DOMI_rm","Dominance–Egocentrism","Disagreeableness",TRUE
+"175","egoc_6m","Considers own needs more important than those of others","DOMI_rm","Dominance–Egocentrism","Disagreeableness",FALSE
+"12","acti_1m","Acts too intensely","ACTI_rm","Hyperactiveness","Disagreeableness",FALSE
+"72","acti_3m","Can never sit still","ACTI_rm","Hyperactiveness","Disagreeableness",TRUE
+"88","impa_3m","Quickly gets impatient","ACTI_rm","Hyperactiveness","Disagreeableness",FALSE
+"100","acti_4m","Always plays with very high energy","ACTI_rm","Hyperactiveness","Disagreeableness",FALSE
+"120","impa_4m","Gets very frustrated when he/she needs to wait somewhere","ACTI_rm","Hyperactiveness","Disagreeableness",FALSE
+"132","acti_5m","Needs action at all times","ACTI_rm","Hyperactiveness","Disagreeableness",TRUE
+"159","acti_6m","Has too much energy","ACTI_rm","Hyperactiveness","Disagreeableness",TRUE
+"33","impa_1m","Demands his/her needs be immediately met","EXPR_rm","Hyperexpressiveness","Disagreeableness",FALSE
+"35","expr_1m","Talks all the time about his/her own experiences","EXPR_rm","Hyperexpressiveness","Disagreeableness",FALSE
+"60","expr_2m","Exhibits his/her feelings at all occasions","EXPR_rm","Hyperexpressiveness","Disagreeableness",TRUE
+"78","impu_3m","Always interrupts other people","EXPR_rm","Hyperexpressiveness","Disagreeableness",FALSE
+"122","expr_4m","Talks all the time","EXPR_rm","Hyperexpressiveness","Disagreeableness",FALSE
+"148","expr_5m","Always tries to be in the center of attention","EXPR_rm","Hyperexpressiveness","Disagreeableness",FALSE
+"161","narc_6m","Always tries to impress","EXPR_rm","Hyperexpressiveness","Disagreeableness",TRUE
+"174","expr_6m","Does all that is possible to draw attention","EXPR_rm","Hyperexpressiveness","Disagreeableness",TRUE
+"20","impu_1m","Acts constantly without considering the consequences","IMPU_rm","Impulsivity","Disagreeableness",TRUE
+"50","impu_2m","Often reacts impulsively","IMPU_rm","Impulsivity","Disagreeableness",FALSE
+"106","impu_4m","Always makes decisions in a very inconsiderate way","IMPU_rm","Impulsivity","Disagreeableness",TRUE
+"138","impu_5m","Often acts without thinking","IMPU_rm","Impulsivity","Disagreeableness",TRUE
+"29","flex_1m","Cannot adjust to changes","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"40","obse_1m","Constantly repeats same actions over and over","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"58","flex_2m","Sticks too rigidly to his/her way of doing things","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"68","obse_2m","Is too often fixed on certain thoughts","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"86","flex_3m","Gets upset when situations suddenly change","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"97","obse_3m","Always has to complete activities in a certain order","FLEX_rm","Inflexibility","Disagreeableness",FALSE
+"117","flex_4m","Always sticks rigidly to the familiar way of doing things","FLEX_rm","Inflexibility","Disagreeableness",TRUE
+"129","obse_4m","Feels forced to repeat the same routine over and over again","FLEX_rm","Inflexibility","Disagreeableness",TRUE
+"170","flex_6m","Can not adjust to sudden changes in plans","FLEX_rm","Inflexibility","Disagreeableness",TRUE
+"11","irri_1m","Is extremely touchy","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"43","irri_2m","Gets easily irritated","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"64","aggr_2m","Destroys things out of anger","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"71","irri_3m","Explodes at any little thing","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",TRUE
+"94","aggr_3m","Gets frequently out of control when he/she is angry","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",TRUE
+"131","irri_5m","Is easily bothered","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"153","aggr_5m","Loses his/her self-control too often","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",TRUE
+"158","irri_6m","Is extremely quick to take offence","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"178","aggr_6m","Often has excessive tempers","IRRI_rm","Irritable–Aggressive Traits","Disagreeableness",FALSE
+"15","narc_1m","Fantasizes all the time about being admired by others","NARC_rm","Narcissistic Traits","Disagreeableness",FALSE
+"45","narc_2m","Regularly has visions of being famous, beautiful or beloved","NARC_rm","Narcissistic Traits","Disagreeableness",FALSE
+"61","gran_2m","Believes that he/she is very special and unique","NARC_rm","Narcissistic Traits","Disagreeableness",FALSE
+"75","narc_3m","Takes pride in his/her talents and accomplishments","NARC_rm","Narcissistic Traits","Disagreeableness",FALSE
+"90","gran_3m","Believes he/she has a right to preferential treatment","NARC_rm","Narcissistic Traits","Disagreeableness",FALSE
+"124","gran_4m","Considers him/herself more worthy than others","NARC_rm","Narcissistic Traits","Disagreeableness",TRUE
+"135","narc_5m","Will do anything to be in the spotlight","NARC_rm","Narcissistic Traits","Disagreeableness",TRUE
+"149","gran_5m","Frequently thinks that he/she is the best","NARC_rm","Narcissistic Traits","Disagreeableness",TRUE
+"26","mani_1m","Cheats all the time","RESI_rm","Resistance","Disagreeableness",TRUE
+"27","resi_1m","Always tries to resist","RESI_rm","Resistance","Disagreeableness",FALSE
+"56","resi_2m","Breaks rules all the time, both at school and at home","RESI_rm","Resistance","Disagreeableness",TRUE
+"114","resi_4m","Is frequently disobedient without reason","RESI_rm","Resistance","Disagreeableness",TRUE
+"143","resi_5m","Always refuses to do what is asked","RESI_rm","Resistance","Disagreeableness",FALSE
+"22","risk_1m","Is often attracted to dangerous situations","RISK_rm","Risk Taking","Disagreeableness",FALSE
+"52","risk_2m","Often gets hurt by taking irresponsible risks","RISK_rm","Risk Taking","Disagreeableness",FALSE
+"81","risk_3m","Seeks adventure all the time","RISK_rm","Risk Taking","Disagreeableness",TRUE
+"109","risk_4m","Always seeks excitement","RISK_rm","Risk Taking","Disagreeableness",TRUE
+"140","risk_5m","Likes to take risks","RISK_rm","Risk Taking","Disagreeableness",TRUE
+"166","risk_6m","Always behaves carelessly","RISK_rm","Risk Taking","Disagreeableness",FALSE
+"10","anxi_1m","Panics very easily","ANXI_rm","Anxious Traits","Emotional Instability",FALSE
+"41","anxi_2m","Always expects the worst ","ANXI_rm","Anxious Traits","Emotional Instability",TRUE
+"59","rumi_2m","Worries all the time about minor things","ANXI_rm","Anxious Traits","Emotional Instability",FALSE
+"69","anxi_3m","Often experiences an intense fear","ANXI_rm","Anxious Traits","Emotional Instability",FALSE
+"98","anxi_4m","Often fears that everything will turn out badly","ANXI_rm","Anxious Traits","Emotional Instability",TRUE
+"146","rumi_5m","Worries all the time","ANXI_rm","Anxious Traits","Emotional Instability",TRUE
+"171","rumi_6m","Is often concerned about things that may happen","ANXI_rm","Anxious Traits","Emotional Instability",FALSE
+"49","depe_2m","Needs someone around all the time","DEPE_rm","Dependency","Emotional Instability",FALSE
+"77","depe_3m","Is extremely dependent on other people","DEPE_rm","Dependency","Emotional Instability",TRUE
+"105","depe_4m","Only feels secure when others are around","DEPE_rm","Dependency","Emotional Instability",TRUE
+"137","depe_5m","Can never undertake something without help","DEPE_rm","Dependency","Emotional Instability",TRUE
+"163","self_6m","Feels insecure without advice","DEPE_rm","Dependency","Emotional Instability",FALSE
+"31","pass_1m","Often feels spiritless","DEPR_rm","Depressive Traits","Emotional Instability",FALSE
+"85","depr_3m","Often feels empty inside","DEPR_rm","Depressive Traits","Emotional Instability",TRUE
+"119","rumi_4m","Regrets too often things that happened in the past","DEPR_rm","Depressive Traits","Emotional Instability",TRUE
+"145","depr_5m","Is often pessimistic","DEPR_rm","Depressive Traits","Emotional Instability",TRUE
+"24","stre_1m","Is very sensitive to stress","STRE_rm","Ineffective Coping","Emotional Instability",FALSE
+"54","stre_2m","Is easily upset in stressful situations","STRE_rm","Ineffective Coping","Emotional Instability",TRUE
+"57","reac_2m","Is easily overwhelmed by his/her emotions","STRE_rm","Ineffective Coping","Emotional Instability",FALSE
+"111","stre_4m","Cannot think clearly when he/she is stressed","STRE_rm","Ineffective Coping","Emotional Instability",TRUE
+"115","reac_4m","Always reacts very emotionally","STRE_rm","Ineffective Coping","Emotional Instability",FALSE
+"141","stre_5m","Loses contact with the environment in stressful situations","STRE_rm","Ineffective Coping","Emotional Instability",FALSE
+"144","reac_5m","Is dragged away by his/her emotions","STRE_rm","Ineffective Coping","Emotional Instability",FALSE
+"168","stre_6m","Gets extremely nervous in a stressful situation","STRE_rm","Ineffective Coping","Emotional Instability",TRUE
+"21","atta_1m","Always tries to ensure somebody’s help and concern","ATTA_rm","Insecure Attachment","Emotional Instability",TRUE
+"80","atta_3m","Often clings to other people","ATTA_rm","Insecure Attachment","Emotional Instability",TRUE
+"108","atta_4m","Wants to have his/her parents always around","ATTA_rm","Insecure Attachment","Emotional Instability",FALSE
+"165","atta_6m","Is exceedingly attached to the home surrounding","ATTA_rm","Insecure Attachment","Emotional Instability",TRUE
+"17","remo_1m","Feels no emotions when other children get hurt","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"30","unfo_1m","Cannot forgive","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"51","empa_2m","Rarely is willing to be helpful to others","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"79","empa_3m","Does not care for other children","EMPA_rm","Lack of Empathy","Emotional Instability",TRUE
+"84","resi_3m","Never sticks to agreements","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"107","empa_4m","Is never interested in problems of other children","EMPA_rm","Lack of Empathy","Emotional Instability",TRUE
+"118","unfo_4m","Always holds a grudge after a disagreement","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"139","empa_5m","Shows no sympathy with other children","EMPA_rm","Lack of Empathy","Emotional Instability",TRUE
+"150","egoc_5m","Cannot even stand small suggestions from someone else","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"164","empa_6m","Never comforts other children when they are sad","EMPA_rm","Lack of Empathy","Emotional Instability",FALSE
+"19","self_1m","Always feels less worthy than other children","SELF_rm","Lack of Self-Confidence","Emotional Instability",TRUE
+"48","self_2m","Is extremely uncertain about him/herself","SELF_rm","Lack of Self-Confidence","Emotional Instability",TRUE
+"104","self_4m","Often thinks of him/herself as unable to manage things","SELF_rm","Lack of Self-Confidence","Emotional Instability",TRUE
+"136","self_5m","Always doubts about him/herself","SELF_rm","Lack of Self-Confidence","Emotional Instability",TRUE
+"16","sepa_1m","Often fears of being abandoned one day","SEPA_rm","Separation Anxiety","Emotional Instability",TRUE
+"46","sepa_2m","Often fears that his/her parents will desert him/her","SEPA_rm","Separation Anxiety","Emotional Instability",TRUE
+"103","sepa_4m","Constantly fears being on his/her own one day","SEPA_rm","Separation Anxiety","Emotional Instability",TRUE
+"36","subm_1m","Others frequently take advantage of him/her","SUBM_rm","Submissiveness","Emotional Instability",TRUE
+"62","subm_2m","Obeys other children all the time","SUBM_rm","Submissiveness","Emotional Instability",FALSE
+"89","naiv_3m","Believes too easily what’s being told","SUBM_rm","Submissiveness","Emotional Instability",TRUE
+"92","subm_3m","He/she is easily persuaded","SUBM_rm","Submissiveness","Emotional Instability",TRUE
+"123","naiv_4m","He/she believes anything anyone says","SUBM_rm","Submissiveness","Emotional Instability",TRUE
+"125","subm_4m","Frequently leaves decisions and responsibilities to others","SUBM_rm","Submissiveness","Emotional Instability",FALSE
+"151","subm_5m","Always submits to other children","SUBM_rm","Submissiveness","Emotional Instability",FALSE
+"176","subm_6m","Always keeps in the background","SUBM_rm","Submissiveness","Emotional Instability",FALSE
+"42","para_2m","Is convinced that other children always have bad intentions","PARA_rm","Paranoid Traits","Introversion;",FALSE
+"70","para_3m","Is always on his/her guard against others","PARA_rm","Paranoid Traits","Introversion;",FALSE
+"99","para_4m","Distrusts most people","PARA_rm","Paranoid Traits","Introversion;",TRUE
+"130","para_5m","Is very suspicious towards other children","PARA_rm","Paranoid Traits","Introversion;",TRUE
+"157","para_6m","Thinks that other children want to cheat him/her","PARA_rm","Paranoid Traits","Introversion;",TRUE
+"28","avoi_1m","Avoids any collaboration with other children","SHYN_rm","Shyness","Introversion;",FALSE
+"32","inse_1m","Avoids contact with other children for fear of criticism","SHYN_rm","Shyness","Introversion;",FALSE
+"39","shyn_1m","Finds it hard to talk with other children","SHYN_rm","Shyness","Introversion;",FALSE
+"67","shyn_2m","Fears contact with other children","SHYN_rm","Shyness","Introversion;",TRUE
+"87","inse_3m","Believes that other children have an aversion for him/her","SHYN_rm","Shyness","Introversion;",FALSE
+"116","avoi_4m","Avoids contact with other children as much as possible","SHYN_rm","Shyness","Introversion;",TRUE
+"156","shyn_5m","Always feels uncomfortable when other children are around","SHYN_rm","Shyness","Introversion;",TRUE
+"172","inse_6m","Is afraid of being rejected when others get to know him/her","SHYN_rm","Shyness","Introversion;",FALSE
+"63","with_2m","Is very reserved towards others","WITH_rm","Withdrawn Traits","Introversion;",TRUE
+"93","with_3m","Always hides his/her feelings ","WITH_rm","Withdrawn Traits","Introversion;",TRUE
+"126","with_4m","Keeps feelings and thoughts to him/herself","WITH_rm","Withdrawn Traits","Introversion;",TRUE
+"152","with_5m","Cannot express affection","WITH_rm","Withdrawn Traits","Introversion;",FALSE
+"177","with_6m","Never tells something spontaneously","WITH_rm","Withdrawn Traits","Introversion;",TRUE
+"181","apat_1m","Experiences less joy compared to other children","WITH_rm","Withdrawn Traits","Introversion;",FALSE
+"182","dayd_1m","His/her houghts tend to stray at times","DAYD_rm","Daydreaming","Oddity",TRUE
+"184","dayd_2m","Sometimes is completely unaware of what is happening around him/her","DAYD_rm","Daydreaming","Oddity",TRUE
+"187","dayd_3m","Sometimes feels confused","DAYD_rm","Daydreaming","Oddity",FALSE
+"197","dayd_4m","Misses parts of conversations because is daydreaming","DAYD_rm","Daydreaming","Oddity",TRUE
+"199","dayd_5m","Often forgets what he/she was doing just moments before","DAYD_rm","Daydreaming","Oddity",FALSE
+"201","dayd_6m","Tends to gaze off into the distance","DAYD_rm","Daydreaming","Oddity",FALSE
+"202","dayd_7m","His/her daydreaming interferes with the ability to complete daily tasks at school or home","DAYD_rm","Daydreaming","Oddity",FALSE
+"188","fant_1m","Gets lost in fantasy more than other kids of the same age","FANT_rm","Extreme fantasy","Oddity",TRUE
+"189","fant_2m","Hears or sees things that others don't hear or see","FANT_rm","Extreme fantasy","Oddity",FALSE
+"190","fant_3m","Sometimes doesn't know if something is real or just imaginary","FANT_rm","Extreme fantasy","Oddity",TRUE
+"193","fant_4m","Strongly believes in supernatural powers","FANT_rm","Extreme fantasy","Oddity",FALSE
+"195","fant_5m","At times, he/she cannot tell the difference between reality and fantasy","FANT_rm","Extreme fantasy","Oddity",TRUE
+"183","oddt_1m","Has ideas that others cannot follow","ODDT_rm","Odd thoughts and behavior","Oddity",FALSE
+"185","oddt_2m","At times, say things that others find odd or strange","ODDT_rm","Odd thoughts and behavior","Oddity",TRUE
+"192","oddt_3m","His/her behavior is weird","ODDT_rm","Odd thoughts and behavior","Oddity",TRUE
+"194","oddt_4m","His/her originality is sometimes not to follow for other people","ODDT_rm","Odd thoughts and behavior","Oddity",FALSE
+"200","oddt_5m","Comes up with new ideas that others do not understand","ODDT_rm","Odd thoughts and behavior","Oddity",FALSE
+"203","oddt_6m","Has strange fantasies","ODDT_rm","Odd thoughts and behavior","Oddity",TRUE
+"186","sens_1m","Can be completely carried away by music","SENS_rm","Oversensitivity to feelings","Oddity",FALSE
+"191","sens_2m","Feels intensely upset when sees something sad on television","SENS_rm","Oversensitivity to feelings","Oddity",TRUE
+"196","sens_3m","His/her emotions can be overwhelming","SENS_rm","Oversensitivity to feelings","Oddity",TRUE
+"198","sens_4m","Sometimes empathizes too strongly with others' feelings or experiences","SENS_rm","Oversensitivity to feelings","Oddity",TRUE
