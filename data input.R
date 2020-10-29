@@ -25,7 +25,7 @@ data$empa_5m[which(data$empa_5m > 5)]<-NA
 big <- data[,which(colnames(data)%in% unlist(DIPSI_facets))]
 small <- read.csv(here::here("data/small 98 i.csv"), stringsAsFactors = F) #this has been extracted from the cfa development.R script
 
-
+names(DIPSI_facets)[28:31]<- c("SENS_rm", "FANT_rm","DAYD_rm", "ODDT_rm")
 
 DIPSI_small <- DIPSI_facets
 

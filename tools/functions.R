@@ -129,11 +129,17 @@ iteminfo <- function(x, this.data, plot=F){
 compareplot <- function(irtbig=irtbig,irtsmall=irtsmall){
   
   library(ggplot2)
-  trashbig <-as.data.frame(plot(irtbig, "IIC", items=0, plot=F))
+  trashbig <-as.data.frame(plot(irtbig2, "IIC", items=0, plot=F))
   trashpercentage <-trashbig
-  percentage <- length(irtsmall$X)/length(irtbig$X)
+  percentage <- length(irtsmall2$X)/length(irtbig2$X)
   trashpercentage[,2]<-trashpercentage[,2]*percentage
   trashsmall<-as.data.frame(plot(irtsmall, "IIC", items=0, plot=F))
+  # if(onefacettif$coefficients[1][[1]]["beta"]<0){ #if starting values are random, the tif can be reversed, this to correct it.
+  #   trashsmall$z <- trashsmall$z * -1
+  # } else if (onefacetbig$coefficients[1][[1]]["beta"]<0){ #if starting values are random, the tif can be reversed, this to correct it.
+  #   trashbig$z <- trashbig$z * -1
+  #   trashpercentage$z <- trashpercentage$z * -1
+  # }
   this.plot<-ggplot(data = trashbig, aes(x=trashbig[,1], y=trashbig[,2]))+
     geom_line(cex=1.5,linetype="dotted")+
     geom_line(data = trashsmall, aes(x=trashsmall[,1], y=trashsmall[,2]), cex=1.5)+
@@ -176,3 +182,38 @@ adolescents=paste(round(mean(as.numeric(x)[data$agecat=="1"], na.rm=T) +
       round(mean(as.numeric(x)[data$agecat=="1"], na.rm=T) -
               (sd(as.numeric(x)[data$agecat=="1"], na.rm=T) / sqrt(length(na.omit(as.numeric(x)[data$agecat=="1"])))), 4)))
 }
+
+
+
+get_empty_cell<-function(i){
+  error<-tryCatch(cfa(models_lambda_rich[i][[1]], test1, ordered=names(test1),
+                      group="gender"), error = function(e){ # error handler
+                        err <- c(e$message) # save error
+                        return( err)})
+  
+  error<-unlist(strsplit(error, " "))
+  var<-sub("`","",sub("'","",error[7]))
+  pos<-if(sub("\\[","",error[15]) == 0){pos=1
+  }else if(sub("\\]","",error[19]) == 0){pos=5}
+  sex<-ifelse(sub(";","",error[12])==1, "girl","boy")
+  
+  row<-sample(which(train1[,var]==pos & train1$gender==sex),1)
+  return(row)
+}
+
+
+fit_categorical_emptycell<-function(){
+  row<-get_empty_cell(i)
+  this.data<-rbind(test1, train1[row,])
+  conf<-cfa(models_lambda_rich[i][[1]],this.data, estimator="MLR",
+            group="gender")
+  
+  metric <- cfa(models_lambda_rich[i][[1]], this.data,  estimator="MLR",
+                group="gender",group.equal="loadings")
+  
+  scalar <- cfa(models_lambda_rich[i][[1]], this.data, estimator="MLR",
+                group="gender",group.equal=c("loadings", "thresholds"))
+  return(c(conf,metric,scalar))
+  
+}
+
