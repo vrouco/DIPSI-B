@@ -5,7 +5,36 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs24 \cf0 This project contains the following files:\
+\
+## MAIN FOLDER ##\
+\
+1- data input.R\
+	Data is read in processed in this script.\
+2- missing data.R\
+	Amount of missing data and possible missing patterns are explored in this script.\
+3- cross-validation.R\
+	This scripts separates the train and test samples in both the full DIPSI and the DIPSI without oddity. Datasets are saved to be used in subsequent analysis.\
+4- cfa development.R\
+	Here facet models are derived based on model fit indices and modification indices as suggested by the Saris method.\
+5- tif-clean.R\
+	TIF plots are generated.\
+6- validation table.R\
+	CFAs and reliabilities are computed with the test data.\
+7- theta facet scores.R\
+	Sum-scores are compared with latent scores based on the derived facets and with the test data.\
+8- part to whole cors.R\
+	Comparison between the original DIPSI and the DIPSI-B at the facet level.\
+9- gender/age measurement invariance.R\
+	Compute measurement invariance in each facet between different age and gender categories.\
+10- measurement invariance table.xslx\
+	The joint table of measurement invariances. Takes its input from the output of the previous R script.\
+11- items DIPSI-B.pdf\
+	DIPSI-B items\
+12- IRT per facet.pdf\
+	Table presenting the IRT information computed in each facet for the original DIPSI. It is used to select items for the DIPSI-B\
+\
+\
 ## DATA FOLDER ##\
 \
 This folder contains the anonymized data-set used in this study.\
@@ -13,16 +42,38 @@ All variables which could be used to de-anonymize this data were transformed to 
 The folder includes:\
 -raw data_anonymized.csv\
 	A csv formed of 1876 rows and 412 columns. It contains all the subjects and all the variables used in the study.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 -train1_anonymized.csv\
+-train1_anonymized.csv\
 	Subsample of the previous data set after cross validation. This is used in the exploratory phase of the study. Only includes items which do not measure Oddity. 905 rows and 179 columns.\
 -train2_anonymized.csv\
 	Subsample of the previous data set after cross validation. This is used in the exploratory phase of the study. Only includes items which do measure Oddity. 230 rows and 29 columns.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 -test1_anonymized.csv\
+-test1_anonymized.csv\
 	Subsample of the previous data set after cross validation. This is used in the confirmatory phase of the study. Only includes items which do not measure Oddity. 907 rows and 179 columns.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 -test2_anonymized.csv\
+-test2_anonymized.csv\
 	Subsample of the previous data set after cross validation. This is used in the confirmatory phase of the study. Only includes items which do measure Oddity. 231 rows and 29 columns.\
+-itemkey.xlsx\
+	Data dictionary at the item level.\
+-key.xlsx\
+	Data dictionary at the facet level.\
+-small 98i.csv\
+	Items included in the DIPSI-B. Full sample.\
+-domains.R\
+	List with domains and facets.\
+-facets.R\
+	List with facets and items\
+\
+## TOOLS FOLDER ##\
+\
+-functions.R\
+	Separate script with functions used in the analysis.\
+-mi age/gender table .csv\
+	Measurement invariance table for age and gender.\
+-final models cfa.Rdata\
+	Tau-equivalent and derived models for the facets of the DIPSI-B.\
+\
+## FACET TIF ##\
+\
+Plots of Test information function for the five dimensions and each of the facets. Solid represents the TIF of the DIPSI-B, dotted line the TIF of the DIPSI, dashed line the TIF of the DIPSI adjusting for item reduction in the DIPSI-B. TIFs of the dimensions include random selection of items as grey lines, mimicking the dIPSI-B.\
+\
+\
 \
 }
