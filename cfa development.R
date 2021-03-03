@@ -84,16 +84,16 @@ models_lambda_rich<-list(
 #lines below were used to manually derive models
 
 
- x<-cfa(model=models[19][[1]], data=train1, ordered=names(train1))
- model2<-'SEPA_rm =~ 1*sepa_1m + sepa_2m + 1*sepa_4m'
- x<-cfa(model=model2, data=train1, ordered=names(train1))
- fitMeasures(x)[c("chisq","df","pvalue.scaled", "rmsea.scaled")]
- modindices(x, power=T, sort=T, delta=0.1)
- x2<-cfa(model=model2, data=train1, ordered=names(train1))
-#  
-#  
-  SUBM_model = 'LABI_rm =~ 1*labi_2m + 1*labi_3m + 1*labi_6m
-  labi_2m  ~~ labi_3m '
+#  x<-cfa(model=models[19][[1]], data=train1, ordered=names(train1))
+#  model2<-'SEPA_rm =~ 1*sepa_1m + sepa_2m + 1*sepa_4m'
+#  x<-cfa(model=model2, data=train1, ordered=names(train1))
+#  fitMeasures(x)[c("chisq","df","pvalue.scaled", "rmsea.scaled")]
+#  modindices(x, power=T, sort=T, delta=0.1)
+#  x2<-cfa(model=model2, data=train1, ordered=names(train1))
+# #  
+# #  
+#   SUBM_model = 'LABI_rm =~ 1*labi_2m + 1*labi_3m + 1*labi_6m
+#   labi_2m  ~~ labi_3m '
 # 
 # x<-cfa(model=SUBM_model, data=train1, ordered=names(train1))
 # fitMeasures(x)[c("chisq","df","pvalue", "rmsea")]

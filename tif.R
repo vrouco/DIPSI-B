@@ -37,9 +37,9 @@ onefacetbig<-test1[,as.character(item.key$item[item.key$facet==unique(item.key$f
 
 this.plot <- compareplot(onefacetbig,onefacettif) 
 this.plot <- this.plot+ggtitle(unique(item.key$facet.label)[i])
-pdf(file=here::here(paste0("facet tif/", unique(item.key$facet.label)[i], ".pdf")))
+#pdf(file=here::here(paste0("facet tif/", unique(item.key$facet.label)[i], ".pdf")))
 print(this.plot)
-dev.off()
+#dev.off()
 }
 
 

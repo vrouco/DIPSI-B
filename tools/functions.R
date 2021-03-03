@@ -11,7 +11,7 @@ firstup <- function(x) {
 }
 
 
-iteminfo <- function(x, this.data, plot=F){
+iteminfo <- function(x, this.data, plot=F, DIFgroups=2){
   
   options(warn=-1)
   library(ltm)
@@ -69,6 +69,7 @@ iteminfo <- function(x, this.data, plot=F){
         this.plot <- plot(grmobject, plot=F)}
   }
   
+  if(DIFgroups==2){
   DIF<-function(...){
     
     library(lordif)
@@ -93,9 +94,34 @@ iteminfo <- function(x, this.data, plot=F){
       empty[,8] <- print(NA)
       empty[,9] <- print(NA)}
   }
-  
+  } else if(DIFgroups==3){
+    DIF<-function(...){
+      
+      library(lordif)
+      agecat2 <- cut(this.data[,"age_years"], c(0,10,14,99),c("0","medio","1"), inlude.lowest=T)
+      x<-cbind(x,agecat2)
+      #x<-x[-which(x$agecat2=="medio"),]
+      #x$agecat2 <- droplevels(x$agecat)
+      difinfo <- lordif(x[,-which(names(x)=="agecat2")], x$agecat2, criterion = "Chisqr", alpha=0.01, minCell = 5)
+      return(difinfo)
+    }
+    
+    trash <- quiet(try(DIF(x), silent=T))
+    #trash<-difinfo
+    
+    {if (class(trash) != "try-error") {
+      empty[,8] <- quiet(ifelse(DIF(x)$flag==TRUE, "*", paste("")))
+      empty[,9] <- quiet(ifelse(DIF(x)$flag==TRUE, apply(round(DIF(x)$stats[10:12], 3), 1, max), ""))
+      
+    } 
+      else {
+        
+        empty[,8] <- print(NA)
+        empty[,9] <- print(NA)}
+    }
+  }
   colnames(empty)[7:9] <- c("Discrimination","DIF suspicious", "pseudo.R2")
-  empty[,2] <- key$item.label[which(key$item%in%colnames(grmobject$X))]
+  empty[,2] <- item.key$item.label[which(item.key$item%in%colnames(grmobject$X))]
   empty[,1] <- colnames(x)
   colnames(empty) <- c("item", "label", "b1","b2","b3","b4","a","DIF susp","DIF")
   empty<-empty[,-8]
@@ -129,9 +155,9 @@ iteminfo <- function(x, this.data, plot=F){
 compareplot <- function(irtbig=irtbig,irtsmall=irtsmall){
   
   library(ggplot2)
-  trashbig <-as.data.frame(plot(irtbig2, "IIC", items=0, plot=F))
+  trashbig <-as.data.frame(plot(irtbig, "IIC", items=0, plot=F))
   trashpercentage <-trashbig
-  percentage <- length(irtsmall2$X)/length(irtbig2$X)
+  percentage <- length(irtsmall$X)/length(irtbig$X)
   trashpercentage[,2]<-trashpercentage[,2]*percentage
   trashsmall<-as.data.frame(plot(irtsmall, "IIC", items=0, plot=F))
   # if(onefacettif$coefficients[1][[1]]["beta"]<0){ #if starting values are random, the tif can be reversed, this to correct it.

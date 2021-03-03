@@ -4,8 +4,6 @@ library(VIM)
 
 source(here("data input.R"))
 
-#data <- read.csv(here::here("data/raw data_anonymized.csv")) #read data
-
 
 #####without oddity
 

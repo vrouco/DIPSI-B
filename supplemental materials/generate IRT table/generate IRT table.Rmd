@@ -1,0 +1,44 @@
+---
+title: "IRT facet"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning=F, message=F)
+```
+
+
+```{r, include=F, eval=T}
+library(here)
+source(here("tools/functions.R"))
+library(flextable)
+library(tidyverse)
+library(knitr)
+load(here::here("IRT table.Rdata"))
+```
+
+# Annex 2.
+
+## IRT information per facet
+
+
+Note: *b1* to *b4* columns represents the difficulty parameters, *a* stands for the discrimination parameter. Values in the *DIF* column represent McFaden's pseudo R squared values. They are only printed if the Chi^2 test is significant. The *DIF.3* column represents DIF values without excluding the middle-age category, that is, using three different groups for DIF analyses.
+
+
+```{r, results="asis", eval=T}
+
+IRT.table <- y[,-9]
+load(here::here("IRT table with 3 groups.Rdata"))
+IRT.table$DIF.3 <- y$DIF
+
+regulartable(IRT.table) %>% 
+  autofit()  %>% 
+  width(j = ~ label, width = 3.4) %>% 
+  width(j = ~ item, width = 1) %>% 
+  width(j = ~ b1+b2+b3+b4+a, width = 0.5) %>% 
+  width(j = ~ DIF, width = 0.6)%>% 
+  width(j = ~ DIF.3, width = 0.6)
+```
+
