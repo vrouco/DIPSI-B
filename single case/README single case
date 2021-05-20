@@ -1,0 +1,3 @@
+Here we compute facet scores for single cases based on the population parameters of the main dataset.
+
+Data from individual cases wont be published in git, a .gitignore line should be addedd each time a file is locally uploaded
